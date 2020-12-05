@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body onload="draw()">
+<canvas id="sketch" width="500" height="500">
+</canvas>
+<script>
+function draw() {
+
+        var sketch = document.getElementById('sketch');
+        var context = sketch.getContext("2d");
+
+        context.fillStyle = "#ff0000"
+        context.beginPath();
+        context.arc(100,100,100, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#ff1a1a"
+        context.beginPath();
+        context.arc(100,100, 90, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#ff3333"
+        context.beginPath();
+        context.arc(100,100, 80, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#ff4d4d"
+        context.beginPath();
+        context.arc(100,100,70, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#ff6666"
+        context.beginPath();
+        context.arc(100,100, 60, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#ff8080"
+        context.beginPath();
+        context.arc(100,100, 50, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#0000ff"
+        context.beginPath();
+        context.arc(300,100,100, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#1a1aff"
+        context.beginPath();
+        context.arc(300,100, 90, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#3333ff"
+        context.beginPath();
+        context.arc(300,100, 80, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#4d4dff"
+        context.beginPath();
+        context.arc(300,100,70, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#6666ff"
+        context.beginPath();
+        context.arc(300,100, 60, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = "#8080ff"
+        context.beginPath();
+        context.arc(300,100, 50, 0, 2 * Math.PI, true);
+        context.closePath();
+        context.fill();
+}
+    </script>
+  </body>
+</html>
